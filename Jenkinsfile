@@ -9,12 +9,14 @@ node {
 	timestamps {
         	stage "First echo"
         	echo "Hey, look, I'm echoing with a timestamp!"
-
+		date
+		
 	        stage "Sleeping"
         	sleep 30
 
  	       	stage "Second echo"
         	echo "Wonder what time it is now?"
+		date
     	}
         
 	echo 'TEST IS COMPLETED'
